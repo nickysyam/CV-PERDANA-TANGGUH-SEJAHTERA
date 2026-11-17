@@ -1,0 +1,126 @@
+{
+  "name": "CV. Perdana Tangguh Sejahtera",
+  "shortName": "PTS",
+  "tagline": "Your Trusted Partner for Food Supply & Distribution",
+  "brandMessage": "Reliable Supply. Stronger Partnerships.",
+  "description": "CV. Perdana Tangguh Sejahtera (PTS) adalah mitra supply dan distribusi yang menyediakan komoditas bahan pangan dan solusi pengadaan untuk kebutuhan bisnis. Kami melayani MBG (Makan Bergizi Gratis), SPPG (Satuan Pelayanan Pemenuhan Gizi), catering, restoran, hotel, serta pengadaan institusional dan komersial.",
+  "mission": "Menyediakan solusi pengadaan bahan pangan yang terpercaya, efisien, dan berorientasi pada kemitraan jangka panjang untuk berbagai sektor bisnis di Banten dan sekitarnya.",
+  "website": "https://pts.co.id",
+  "logo": {
+    "text": "PTS",
+    "fullName": "Perdana Tangguh Sejahtera"
+  },
+  "contact": {
+    "whatsapp": "6281200000000",
+    "whatsappDisplay": "+62 812-0000-0000",
+    "email": "info@perdanatangguh.co.id",
+    "address": "Tangerang, Banten, Indonesia",
+    "addressFull": "Tangerang, Banten, Indonesia",
+    "serviceArea": ["Tangerang", "Tangerang Selatan", "Kota Tangerang", "Kabupaten Tangerang", "Banten", "Serang", "Cilegon"]
+  },
+  "social": {
+    "instagram": "#",
+    "facebook": "#",
+    "linkedin": "#"
+  },
+  "hero": {
+    "headline": "Your Trusted Partner for Food Supply & Distribution",
+    "subheadline": "Solusi pengadaan bahan pangan yang terpercaya untuk kebutuhan MBG, SPPG, catering, restoran, dan berbagai sektor bisnis.",
+    "primaryCta": "Explore Our Products",
+    "secondaryCta": "Become Our Partner"
+  },
+  "about": {
+    "title": "Tentang CV. Perdana Tangguh Sejahtera",
+    "lead": "Kami adalah mitra supply dan distribusi yang berkomitmen menyediakan komoditas bahan pangan dan solusi pengadaan untuk kebutuhan bisnis Anda.",
+    "paragraphs": [
+      "CV. Perdana Tangguh Sejahtera berperan sebagai mitra supply dan distribusi yang menyediakan komoditas bahan pangan dan solusi pengadaan bagi berbagai kebutuhan bisnis. Kami menghubungkan antara kebutuhan pengadaan bahan pangan dengan solusi supply yang terorganisir, terkoordinasi, dan berorientasi pada kemitraan jangka panjang.",
+      "Kami melayani MBG (Makan Bergizi Gratis), SPPG (Satuan Pelayanan Pemenuhan Gizi), catering, restoran, hotel, serta pengadaan institusional dan komersial. Pendekatan kami berfokus pada pemahaman kebutuhan setiap mitra, koordinasi supply yang konsisten, dan layanan yang responsif terhadap kebutuhan operasional."
+    ],
+    "pillars": [
+      {
+        "icon": "briefcase",
+        "title": "Business-Oriented Supply Solutions",
+        "description": "Solusi supply yang dirancang untuk mendukung kebutuhan operasional bisnis Anda secara terorganisir."
+      },
+      {
+        "icon": "check-circle",
+        "title": "Quality-Focused Procurement",
+        "description": "Proses pengadaan yang berorientasi pada kualitas bahan pangan yang dikirim kepada mitra."
+      },
+      {
+        "icon": "users",
+        "title": "Customer-Oriented Service",
+        "description": "Layanan yang responsif dan menyesuaikan dengan kebutuhan setiap mitra bisnis."
+      },
+      {
+        "icon": "handshake",
+        "title": "Long-Term Business Partnerships",
+        "description": "Komitmen membangun kemitraan supply jangka panjang yang saling menguntungkan."
+      }
+    ]
+  },
+  "whyChoose": [
+    {
+      "icon": "tag",
+      "title": "Competitive Pricing",
+      "description": "Penawaran harga yang kompetitif untuk kebutuhan supply bahan pangan bisnis Anda."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Quality-Oriented Procurement",
+      "description": "Proses pengadaan yang mengutamakan kualitas bahan pangan yang dikirim."
+    },
+    {
+      "icon": "headset",
+      "title": "Responsive Customer Service",
+      "description": "Tim yang siap merespon kebutuhan dan pertanyaan mitra secara cepat."
+    },
+    {
+      "icon": "refresh",
+      "title": "Flexible Supply Arrangements",
+      "description": "Arrangement supply yang fleksibel sesuai kebutuhan operasional bisnis Anda."
+    },
+    {
+      "icon": "handshake",
+      "title": "Business Partnership Approach",
+      "description": "Pendekatan kemitraan bisnis yang berorientasi pada hubungan jangka panjang."
+    },
+    {
+      "icon": "truck",
+      "title": "Reliable Supply Coordination",
+      "description": "Koordinasi supply yang terorganisir untuk menjamin kelancaran distribusi."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Initial Inquiry",
+      "description": "Mitra menghubungi kami melalui WhatsApp atau form kontak untuk menyampaikan kebutuhan awal."
+    },
+    {
+      "step": "02",
+      "title": "Requirement Assessment",
+      "description": "Tim kami mengevaluasi kebutuhan supply, lokasi, dan jadwal pengiriman mitra."
+    },
+    {
+      "step": "03",
+      "title": "Product & Price Quotation",
+      "description": "Kami menyusun quotation produk dan harga sesuai kebutuhan spesifik mitra."
+    },
+    {
+      "step": "04",
+      "title": "Agreement & Order Confirmation",
+      "description": "Kesepakatan dan konfirmasi pesanan disusun bersama untuk memastikan keselarasan informasi."
+    },
+    {
+      "step": "05",
+      "title": "Procurement & Quality Checking",
+      "description": "Proses pengadaan dan pemeriksaan kualitas dilakukan sebelum distribusi ke mitra."
+    },
+    {
+      "step": "06",
+      "title": "Delivery & Ongoing Partnership",
+      "description": "Pengiriman dilakukan sesuai jadwal, dengan kemitraan supply berkelanjutan ke depan."
+    }
+  ]
+}

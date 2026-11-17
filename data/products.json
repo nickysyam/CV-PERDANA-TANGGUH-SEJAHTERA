@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "rice-grains",
+      "name": "Rice Supply",
+      "category": "Beras Berkualitas",
+      "shortDescription": "Beras berkualitas untuk memenuhi kebutuhan dapur SPPG, catering, hotel, dan restoran.",
+      "image": "assets/images/rice-grains.webp",
+      "imageAlt": "Beras untuk supply bisnis food service",
+      "keywords": ["supplier beras MBG", "supplier beras Tangerang", "supplier bahan pangan"]
+    },
+    {
+      "id": "fresh-vegetables",
+      "name": "Fresh Vegetables",
+      "category": "Sayuran Segar",
+      "shortDescription": "Sayuran segar untuk kebutuhan supply harian dapur catering, restoran, dan institusi.",
+      "image": "assets/images/fresh-vegetables.webp",
+      "imageAlt": "Sayuran segar untuk supply bisnis food service",
+      "keywords": ["supplier sayuran Tangerang", "supplier bahan makanan Tangerang"]
+    },
+    {
+      "id": "fresh-fruits",
+      "name": "Fresh Fruits",
+      "category": "Buah Segar",
+      "shortDescription": "Buah segar untuk kebutuhan supply konsumsi harian, catering, dan institusi.",
+      "image": "assets/images/fresh-fruits.webp",
+      "imageAlt": "Buah segar untuk supply bisnis food service",
+      "keywords": ["supplier buah Tangerang", "supplier bahan pangan"]
+    },
+    {
+      "id": "meat-poultry",
+      "name": "Meat & Poultry",
+      "category": "Daging & Unggas",
+      "shortDescription": "Daging dan unggas untuk kebutuhan supply dapur restoran, catering, dan institusi.",
+      "image": "assets/images/meat-poultry.webp",
+      "imageAlt": "Daging dan unggas untuk supply bisnis food service",
+      "keywords": ["supplier daging Tangerang", "supplier bahan makanan Tangerang"]
+    },
+    {
+      "id": "fish-seafood",
+      "name": "Fish & Seafood",
+      "category": "Ikan & Seafood",
+      "shortDescription": "Ikan dan seafood untuk kebutuhan supply dapur catering, restoran, dan hotel.",
+      "image": "assets/images/fish-seafood.webp",
+      "imageAlt": "Ikan dan seafood untuk supply bisnis food service",
+      "keywords": ["supplier ikan Tangerang", "supplier seafood Banten"]
+    },
+    {
+      "id": "cooking-oil",
+      "name": "Cooking Oil",
+      "category": "Minyak Goreng",
+      "shortDescription": "Minyak goreng untuk kebutuhan supply dapur restoran, catering, dan institusi.",
+      "image": "assets/images/cooking-oil.webp",
+      "imageAlt": "Minyak goreng untuk supply bisnis food service",
+      "keywords": ["supplier minyak goreng", "distributor bahan pokok Banten"]
+    },
+    {
+      "id": "spices-seasonings",
+      "name": "Spices & Seasonings",
+      "category": "Bumbu & Bumbu Dapur",
+      "shortDescription": "Bumbu dan seasoning untuk kebutuhan supply dapur restoran, catering, dan hotel.",
+      "image": "assets/images/spices-seasonings.webp",
+      "imageAlt": "Bumbu dan seasoning untuk supply bisnis food service",
+      "keywords": ["supplier bumbu dapur", "supplier kebutuhan dapur"]
+    },
+    {
+      "id": "food-essentials",
+      "name": "Premiun Egg Supply",
+      "category": "Bahan Pokok",
+      "shortDescription": "Pasokan telur berkualitas untuk kebutuhan harian restoran, catering, bakery, dan berbagai institusi.",
+      "image": "assets/images/food-essentials.webp",
+      "imageAlt": "Bahan pokok untuk supply bisnis food service",
+      "keywords": ["distributor bahan pokok Banten", "supplier kebutuhan dapur"]
+    }
+  ]
+}

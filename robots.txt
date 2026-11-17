@@ -1,0 +1,19 @@
+# robots.txt — CV. Perdana Tangguh Sejahtera
+# https://pts.co.id/
+
+User-agent: *
+Allow: /
+
+# Disallow indexing of internal JSON data files (not user-facing content)
+Disallow: /data/*.json
+
+# Allow crawling of all CSS, JS, and image assets
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://pts.co.id/sitemap.xml
+
+# Crawl rate (polite)
+Crawl-delay: 1

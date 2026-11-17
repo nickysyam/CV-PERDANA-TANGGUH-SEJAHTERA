@@ -1,0 +1,411 @@
+/* ==========================================================================
+   CV. Perdana Tangguh Sejahtera — Responsive Stylesheet
+   Mobile-first → tablet → laptop → desktop
+   No horizontal overflow at any breakpoint.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Base (Mobile) — Default styles in style.css/components.css already cover mobile
+   This file progressively enhances for larger screens.
+   -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   Large Mobile / Small Tablet (≥ 480px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 480px) {
+  .hero__cta {
+    gap: var(--space-md);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Tablet (≥ 768px) — Already largely covered; minor tweaks
+   -------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .form-actions {
+    justify-content: flex-start;
+  }
+  .form-actions .btn {
+    flex: 0 0 auto;
+    min-width: 200px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Desktop (≥ 992px)
+   -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .header__inner {
+    height: var(--header-height);
+  }
+}
+
+/* ==========================================================================
+   MAX-WIDTH MEDIA QUERIES (Adjusting DOWN for smaller screens)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Desktop down (≤ 1199px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1199px) {
+  .products__grid,
+  .products__loading {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .services__grid,
+  .why__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Tablet down (≤ 991px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 991px) {
+  :root {
+    --header-height: 70px;
+  }
+
+  /* Header switches to mobile mode */
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-md);
+    padding: var(--space-xl) var(--container-padding) var(--space-2xl);
+    background: var(--color-white);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(100%);
+    transition: transform var(--transition-slow);
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  .nav.is-open {
+    transform: translateX(0);
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 14px 16px;
+    font-size: var(--fs-base);
+    border-radius: var(--radius-md);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav__link::after {
+    display: none;
+  }
+
+  .nav__actions {
+    flex-direction: column;
+    width: 100%;
+    margin-top: var(--space-sm);
+  }
+
+  .nav__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Body lock when mobile menu open */
+  body.nav-open {
+    overflow: hidden;
+  }
+
+  /* Hero */
+  .hero {
+    padding-top: calc(var(--header-height) + var(--space-3xl));
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+    min-height: 0;
+  }
+
+  .hero__visual {
+    order: -1;
+    margin-inline: auto;
+  }
+
+  .hero__card {
+    max-width: 480px;
+  }
+
+  /* About */
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .about__media {
+    aspect-ratio: 16 / 10;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+
+  /* Contact */
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  /* Footer */
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile down (≤ 767px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  :root {
+    --space-4xl: 4rem;
+    --space-3xl: 3rem;
+  }
+
+  .section {
+    padding-block: var(--space-3xl);
+  }
+
+  /* Hero */
+  .hero__title {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+  }
+
+  .hero__subtitle {
+    font-size: var(--fs-base);
+  }
+
+  .hero__stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+  }
+
+  .hero__stat-value {
+    font-size: var(--fs-lg);
+  }
+
+  .hero__stat-label {
+    font-size: 0.65rem;
+  }
+
+  .hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero__card {
+    padding: var(--space-lg);
+  }
+
+  .hero__badge {
+    top: -12px;
+    right: -8px;
+    padding: 8px 14px;
+    font-size: 0.625rem;
+  }
+
+  /* About */
+  .about__pillars {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  /* Services / Why / Process */
+  .services__grid,
+  .why__grid,
+  .process__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  /* Products */
+  .products__grid,
+  .products__loading {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+  }
+
+  /* Section heads */
+  .section-head {
+    margin-bottom: var(--space-2xl);
+  }
+
+  /* Contact form */
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .contact-form {
+    padding: var(--space-lg);
+  }
+
+  /* Footer */
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-sm);
+  }
+
+  /* CTA Strip */
+  .cta-strip__actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Floating buttons — smaller on mobile */
+  .floating-wa {
+    width: 52px;
+    height: 52px;
+    bottom: 18px;
+    right: 18px;
+  }
+
+  .back-to-top {
+    bottom: 82px;
+    right: 22px;
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Brand on small screens */
+  .brand__sub {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small mobile (≤ 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 1rem;
+    --space-4xl: 3rem;
+    --space-3xl: 2.5rem;
+  }
+
+  .products__grid,
+  .products__loading {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__stats {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+    padding-top: var(--space-lg);
+  }
+
+  .hero__stat {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .hero__stat-value {
+    font-size: var(--fs-xl);
+  }
+
+  .hero__badge {
+    top: -10px;
+    right: 0;
+  }
+
+  .product-card__title {
+    font-size: var(--fs-base);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Landscape phones — short height
+   -------------------------------------------------------------------------- */
+@media (max-width: 991px) and (orientation: landscape) and (max-height: 600px) {
+  .hero__inner {
+    min-height: 0;
+  }
+
+  .hero__visual {
+    display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print styles
+   -------------------------------------------------------------------------- */
+@media print {
+  .header,
+  .floating-wa,
+  .back-to-top,
+  .nav-toggle,
+  .hero__visual,
+  .contact-form,
+  .preloader {
+    display: none !important;
+  }
+
+  .hero {
+    background: var(--color-white);
+    color: var(--text-primary);
+    padding: var(--space-md) 0;
+  }
+
+  .hero__bg {
+    background: none;
+  }
+
+  .hero__title,
+  .hero__subtitle,
+  .hero__eyebrow,
+  .hero__stat-value,
+  .hero__stat-label {
+    color: var(--text-primary);
+  }
+
+  .section {
+    padding: var(--space-md) 0;
+  }
+
+  body::before {
+    content: "CV. Perdana Tangguh Sejahtera — pts.co.id";
+    display: block;
+    font-size: 10pt;
+    color: #666;
+    margin-bottom: 12pt;
+  }
+}

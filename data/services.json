@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": "food-supply-procurement",
+      "icon": "shopping-cart",
+      "title": "Food Supply & Procurement",
+      "description": "Layanan supply dan pengadaan komoditas bahan pangan untuk kebutuhan operasional bisnis Anda, dari hulu hingga distribusi terkoordinasi."
+    },
+    {
+      "id": "bulk-purchasing",
+      "icon": "box",
+      "title": "Bulk Purchasing",
+      "description": "Pembelian dalam jumlah besar untuk kebutuhan supply rutin bisnis, dengan arrangement fleksibel sesuai skala kebutuhan."
+    },
+    {
+      "id": "recurring-supply",
+      "icon": "calendar-check",
+      "title": "Recurring Supply Solutions",
+      "description": "Solusi supply berkala yang dapat dijadwalkan untuk memastikan kelancaran operasional dapur dan bisnis Anda."
+    },
+    {
+      "id": "procurement-support",
+      "icon": "headset",
+      "title": "Business Procurement Support",
+      "description": "Dukungan pengadaan untuk kebutuhan bisnis, mencakup koordinasi supply, dokumentasi, dan komunikasi yang responsif."
+    },
+    {
+      "id": "product-sourcing",
+      "icon": "search",
+      "title": "Product Sourcing",
+      "description": "Pencarian dan penyediaan komoditas bahan pangan sesuai kebutuhan spesifik mitra, dari beras hingga kebutuhan dapur lainnya."
+    },
+    {
+      "id": "distribution-coordination",
+      "icon": "truck",
+      "title": "Distribution Coordination",
+      "description": "Koordinasi distribusi yang terorganisir untuk memastikan ketepatan waktu dan kelancaran pengiriman ke lokasi mitra."
+    }
+  ]
+}
