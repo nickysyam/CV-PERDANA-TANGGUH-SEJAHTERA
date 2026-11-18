@@ -409,3 +409,81 @@
     margin-bottom: 12pt;
   }
 }
+
+/* ==========================================================================
+   HEADER RESPONSIVE FIX — ALL MOBILE DEVICES
+   ========================================================================== */
+
+/* Header layout */
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-width: 0;
+}
+
+/* Brand container */
+.brand {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    flex: 1 1 auto;
+    gap: 8px;
+}
+
+/* Desktop logo */
+.brand__logo {
+    width: 99px;
+    height: 99px;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    flex: 0 0 auto;
+}
+
+/* Tablet and mobile */
+@media (max-width: 991px) {
+
+    .header__inner {
+        gap: 8px;
+    }
+
+    .brand {
+        flex: 1 1 0;
+        overflow: hidden;
+    }
+
+    .brand__logo {
+        width: clamp(38px, 10vw, 52px);
+        height: clamp(38px, 10vw, 52px);
+    }
+
+    /* Hamburger button */
+    .nav-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 44px;
+        width: 44px;
+        min-width: 44px;
+        height: 44px;
+        position: relative;
+        z-index: 1001;
+        cursor: pointer;
+        touch-action: manipulation;
+    }
+}
+
+/* Very narrow mobile screens */
+@media (max-width: 360px) {
+
+    .header__inner {
+        gap: 4px;
+    }
+
+    .brand__logo {
+        width: 38px;
+        height: 38px;
+    }
+}
