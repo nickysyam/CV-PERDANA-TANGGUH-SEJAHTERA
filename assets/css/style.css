@@ -609,8 +609,8 @@ strong, b {
    ========================================================================== */
 
 .brand__logo {
-    width: 112px;
-    height: 112px;
+    width: 99px;
+    height: 99px;
     object-fit: contain;
     display: block;
     flex-shrink: 0;
@@ -648,8 +648,8 @@ strong, b {
 }
 /* FOOTER LOGO IMAGE */
 .footer__logo-img {
-    width: 99px;
-    height: 99px;
+    width: 118px;
+    height: 118px;
     object-fit: contain;
     display: block;
     flex-shrink: 0;
