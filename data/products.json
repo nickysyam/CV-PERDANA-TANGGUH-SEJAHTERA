@@ -29,11 +29,11 @@
     },
     {
       "id": "meat-poultry",
-      "name": "Meat & Poultry",
-      "category": "Daging & Unggas",
-      "shortDescription": "Daging dan unggas untuk kebutuhan supply dapur restoran, catering, dan institusi.",
+      "name": "Meat & Chicken",
+      "category": "Daging & Ayam",
+      "shortDescription": "Daging dan ayam untuk kebutuhan supply dapur restoran, catering, dan institusi.",
       "image": "assets/images/meat-poultry.webp",
-      "imageAlt": "Daging dan unggas untuk supply bisnis food service",
+      "imageAlt": "Daging dan ayam untuk supply bisnis food service",
       "keywords": ["supplier daging Tangerang", "supplier bahan makanan Tangerang"]
     },
     {
@@ -49,7 +49,7 @@
       "id": "cooking-oil",
       "name": "Cooking Oil",
       "category": "Minyak Goreng",
-      "shortDescription": "Minyak goreng untuk kebutuhan supply dapur restoran, catering, dan institusi.",
+      "shortDescription": "Minyak goreng premiun NON SUBSIDI untuk kebutuhan supply dapur restoran, catering, dan institusi.",
       "image": "assets/images/cooking-oil.webp",
       "imageAlt": "Minyak goreng untuk supply bisnis food service",
       "keywords": ["supplier minyak goreng", "distributor bahan pokok Banten"]
