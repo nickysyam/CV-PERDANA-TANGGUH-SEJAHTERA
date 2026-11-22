@@ -487,3 +487,57 @@
         height: 38px;
     }
 }
+
+/* ==========================================
+   PTS - ANDROID HAMBURGER MENU FIX
+   ========================================== */
+
+@media screen and (max-width: 991px) {
+
+  .header__inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .nav-toggle {
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    flex: 0 0 44px !important;
+
+    position: relative !important;
+    z-index: 10001 !important;
+
+    padding: 0 !important;
+    margin-left: auto !important;
+
+    background: transparent !important;
+    border: none !important;
+    cursor: pointer;
+  }
+
+  .nav-toggle__bar,
+  .nav-toggle::before,
+  .nav-toggle::after {
+    content: "";
+    display: block !important;
+
+    width: 24px !important;
+    height: 2.5px !important;
+
+    background-color: #1D4ED8 !important;
+    border-radius: 5px !important;
+
+    position: relative;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+}
